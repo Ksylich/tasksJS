@@ -12,7 +12,7 @@ function getAll(last) {
     nodes.unshift(node);
     node = node.next;
   }
-
+  
   nodes.forEach(element => {
       console.log('data: ', element.data);
       console.log('next: ', element.next);

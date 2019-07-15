@@ -9,8 +9,8 @@ import './App.css';
 
 
 // import Second from './tasks/second';
-// import Third from './tasks/third';
-import Seventh from './tasks/seventh';
+import Third from './tasks/third';
+// import Seventh from './tasks/seventh';
 
 function App() {
   return (
@@ -23,8 +23,8 @@ function App() {
       {/* <Sixth /> */}
 
       {/* <Second/> */}
-      {/* <Third/> */}
-      <Seventh />
+      <Third/>
+      {/* <Seventh /> */}
       
     </div>
   );
