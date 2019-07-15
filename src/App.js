@@ -5,8 +5,12 @@ import './App.css';
 // import Third from './third';
 // import Fourth from './fourth';
 // import Fifth from './fifth';
-import Sixth from './sixth';
+// import Sixth from './sixth';
 
+
+// import Second from './tasks/second';
+// import Third from './tasks/third';
+import Seventh from './tasks/seventh';
 
 function App() {
   return (
@@ -16,7 +20,11 @@ function App() {
       {/* <Third/> */}
       {/* <Fourth/> */}
       {/* <Fifth/> */}
-      <Sixth />
+      {/* <Sixth /> */}
+
+      {/* <Second/> */}
+      {/* <Third/> */}
+      <Seventh />
       
     </div>
   );

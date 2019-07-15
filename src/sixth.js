@@ -5,17 +5,15 @@ function Node(data, prev) {
   this.prev = prev;
 }
 
-function getAll(last){
-    let node = last;
-    while(node !== null){
-        console.log('data: ', node.data);
-        console.log('prev: ', node.prev);
-        console.log('');
-        node = node.prev;
-    }
+function getAll(last) {
+  let node = last;
+  while (node !== null) {
+    console.log("data: ", node.data);
+    console.log("prev: ", node.prev);
+    console.log("");
+    node = node.prev;
+  }
 }
-
-
 
 const Sixth = () => {
   const n1 = new Node("first", null);
@@ -27,8 +25,6 @@ const Sixth = () => {
   const n7 = new Node("first", n6);
 
   getAll(n7);
-
-
 
   return <div>Sixth</div>;
 };
